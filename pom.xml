@@ -14,6 +14,11 @@
         <name>d465c7312626590-releases</name>
         <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>d465c7312626590-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
 </distributionManagement>
   
   <dependencies>
