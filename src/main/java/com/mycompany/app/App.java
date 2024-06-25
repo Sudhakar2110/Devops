@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class App extends HttpServlet{
 
-    private static final String MESSAGE = "Hello World!";
+    private static final String MESSAGE = "Hello World! v2";
 
     public App() {}
 
