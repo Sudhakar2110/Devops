@@ -50,7 +50,7 @@ public class AppTest
 
         // Verify that the expected HTML is written to the PrintWriter
         verify(writer).println("<html><body>");
-        verify(writer).println("<h2>Hello" + servlet.getMessage() + "</h2>");
+        verify(writer).println("<h2>Hello V2" + servlet.getMessage() + "</h2>");
         verify(writer).println("</body></html>");
 
         
